@@ -6,17 +6,9 @@ body {
     font-family: Lato;
     color: white;
 
-    background: url(https://hd.unsplash.com/photo-1458644267420-66bc8a5f21e4);
+    background: url(https://hd.unsplash.com/photo-1414358154612-ae3d3c120004);
     background-size: cover;
     background-position: center;
-}
-
-#content {
-    text-align: center;
-    padding-top: 25%;
-    text-shadow: 1px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -28,4 +20,38 @@ hr {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#content {
+    text-align: center;
+    padding-top: 20%;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    text-shadow: 1px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
